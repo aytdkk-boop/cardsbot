@@ -29,7 +29,7 @@ USER_AGENT_BROWSER = (
 )
 
 # 👇 Переключатель: какой User-Agent использовать
-USE_BROWSER_UA = False   # True → браузерный, False → идентифицирующий
+USE_BROWSER_UA = True   # True → браузерный, False → идентифицирующий
 
 USER_AGENT = USER_AGENT_BROWSER if USE_BROWSER_UA else USER_AGENT_IDENTIFIED
 

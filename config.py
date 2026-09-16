@@ -25,3 +25,6 @@ DB_PATH = "users.db"
 
 # Минимальный интервал между запросами к Nominatim (сек) — правило OSM
 NOMINATIM_MIN_INTERVAL = 1.0
+
+# Радиус поиска адреса вокруг города пользователя (в градусах, ~0.15° ≈ 15 км)
+SEARCH_VIEWBOX_PADDING = 0.15
